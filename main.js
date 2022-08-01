@@ -52,7 +52,17 @@ const questions = [
             '0',
         ],
         rightAnswer: 2,
-    }    
+    },
+    {
+        question: '2+2+2+2+2*2=?',
+        options: [
+            '22224',
+            '12',
+            '20',
+            '14',
+        ],
+        rightAnswer: 1,
+    }      
 ];
 
 numberOfAllQuestions.innerHTML = questions.length;
